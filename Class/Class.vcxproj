@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5D86A65E-CBD1-4102-BC25-543A796BACE2}</ProjectGuid>
+    <ProjectGuid>{B8186392-3370-41BC-8B85-FF2583FC2B5F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TheWalkingDead</RootNamespace>
+    <RootNamespace>Class</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,8 +146,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="solucioTona.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClInclude Include="Uno.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Uno.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

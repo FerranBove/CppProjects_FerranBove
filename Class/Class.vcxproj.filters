@@ -15,10 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="solucioTona.cpp">
+    <ClInclude Include="Uno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Uno.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
